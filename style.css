@@ -262,3 +262,64 @@ body {
     border: none;
     color: white;
 }
+
+/* footer*/
+.site-footer {
+    background-color: rgb(14, 14, 15);
+    padding: 40px 0 24px 0;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    padding-bottom: 24px;
+}
+
+.footer-top img {
+    height: 40px;
+    display: block;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icons span {
+    cursor: pointer;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+.fa-facebook {
+    color: rgb(35, 100, 220);
+}
+
+.fa-twitter {
+    color: rgb(14, 132, 228);
+}
+
+.fa-instagram {
+    color: rgb(121, 4, 4);
+}
+
+
+.footer-divider {
+    height: 1px;
+    background-color: rgb(39, 44, 59);
+    margin: 0 24px;
+}
+
+.footer-bottom {
+    padding: 24px 24px 0 24px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: rgb(164, 163, 163);
+    text-align: center;
+}
