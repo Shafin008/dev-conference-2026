@@ -263,6 +263,71 @@ body {
     color: white;
 }
 
+/* FAQ*/
+.faq-section {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.faq-container {
+    padding: 0 24px;
+}
+
+.faq-container h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.faq-container > p {
+    font-size: 14px;
+    color: rgb(164, 163, 163);
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    border: 1px solid rgb(207, 205, 205);
+    border-radius: 12px;
+    padding: 20px 24px;
+}
+
+.faq-item summary {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-item summary::after {
+    content: '+';
+    font-size: 20px;
+    color: rgb(164, 163, 163);
+}
+
+.faq-item[open] summary::after {
+    content: '−';
+}
+
+.faq-item p {
+    font-size: 14px;
+    color: rgb(164, 163, 163);
+    line-height: 1.7;
+    margin-top: 12px;
+}
+
 /* footer*/
 .site-footer {
     background-color: rgb(14, 14, 15);
